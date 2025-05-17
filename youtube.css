@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /* Clean, modern font */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('yt.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Navigation Bar */
+.enhanced-nav {
+    position: relative;
+    width: 70%;
+    height: 60px;
+    background: linear-gradient(135deg, #ff5733, #33cfff);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    transform: scale(1.1);
+    color: yellow;
+}
+
+/* Centered Video Section */
+.video-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
